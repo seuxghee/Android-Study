@@ -28,16 +28,16 @@ public class Activity_06 extends Activity {
         editTextNumber15= (EditText) findViewById(R.id.editTextNumber15);
         textView19=(TextView) findViewById(R.id.textView19);
         textView20=(TextView) findViewById(R.id.textView20);
-
+         //점수 계산 버튼
         button26.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 if ((editTextNumber11.getText().length() != 0) && (editTextNumber14.getText().length() != 0) && (editTextNumber15.getText().length() != 0)) {
-                    num1 = Integer.parseInt(editTextNumber11.getText().toString());
-                    num2 = Integer.parseInt(editTextNumber14.getText().toString());
-                    num3 = Integer.parseInt(editTextNumber15.getText().toString());
-                    int result1 = num1 + num2 + num3;
-                    int result = result1 / 3;
+                    num1 = Integer.parseInt(editTextNumber11.getText().toString()); //국어 점수
+                    num2 = Integer.parseInt(editTextNumber14.getText().toString()); //영어 점수
+                    num3 = Integer.parseInt(editTextNumber15.getText().toString()); //수학 점수
+                    int result1 = num1 + num2 + num3; //총점
+                    int result = result1 / 3; //평균
                     textView19.setText(" 총점: " + result1);
                     textView20.setText(" 평균: " + result);
                 } else {
@@ -45,7 +45,7 @@ public class Activity_06 extends Activity {
                 }
             }
         });
-
+               //초기화 버튼
                 button27.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +54,7 @@ public class Activity_06 extends Activity {
                 editTextNumber15.setText("");
             }
         });
+       //돌아가기 버튼
         button28.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
