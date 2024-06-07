@@ -31,7 +31,7 @@ public class Activity_04 extends Activity {
         radioButton4=(RadioButton)findViewById(R.id.radioButton4);
         radioButton3=(RadioButton)findViewById(R.id.radioButton3);
         textView12=(TextView) findViewById(R.id.textView12);
-
+        // 온도 변환 버튼(섭씨,화씨)
         button23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +51,7 @@ public class Activity_04 extends Activity {
                 }
             }
         });
-
+        //초기화 버튼
         button24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,6 +59,7 @@ public class Activity_04 extends Activity {
 
             }
         });
+        //돌아가기 버튼
         button25.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
