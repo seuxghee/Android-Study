@@ -28,7 +28,7 @@ public class Activity_03 extends Activity {
         button17 = (Button) findViewById(R.id.button17);
         button18 = (Button) findViewById(R.id.button18);
         button19 = (Button) findViewById(R.id.button19);
-
+        //나이 계산 버튼
         button16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +41,7 @@ public class Activity_03 extends Activity {
                 }
             }
         });
+        // 태어난 해 버튼
         button17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,7 +54,7 @@ public class Activity_03 extends Activity {
                 }
             }
         });
-
+        //초기화 버튼
         button18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,6 +62,7 @@ public class Activity_03 extends Activity {
                 editTextNumber6.setText("");
             }
         });
+        //돌아가기 버튼
         button19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
