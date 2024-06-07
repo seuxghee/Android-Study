@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         value6 = mint.getStringExtra("putdata3"); //비번
 
 
-
+        //로그인 버튼
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
