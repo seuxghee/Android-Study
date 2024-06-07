@@ -37,7 +37,7 @@ public class Activity02 extends Activity {
                     num1 = editText.getText().toString();
                     num2 = editNumber1.getText().toString();
                     num3 = editPassword1.getText().toString();
-
+                    //데이터 전달하기
                     Intent mint = new Intent(getApplicationContext(), Activity03.class); //데이터 넘길 때
                     mint.putExtra("putdata1", num1); //이름
                     mint.putExtra("putdata2", num2); //학번
