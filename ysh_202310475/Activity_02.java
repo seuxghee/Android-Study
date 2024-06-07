@@ -26,7 +26,7 @@ public class Activity_02 extends Activity {
             button13 = (Button) findViewById(R.id.button13);
             button14 = (Button) findViewById(R.id.button14);
             button15 = (Button) findViewById(R.id.button15);
-
+            // 더하기 버튼
             button10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -40,6 +40,7 @@ public class Activity_02 extends Activity {
                     }
                 }
             });
+            // 빼기 버튼
             button11.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -53,6 +54,7 @@ public class Activity_02 extends Activity {
                     }
                 }
             });
+            //곱하기 버튼
             button12.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -66,6 +68,7 @@ public class Activity_02 extends Activity {
                     }
                 }
             });
+            //나누기 버튼
             button13.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -79,6 +82,7 @@ public class Activity_02 extends Activity {
                     }
                 }
             });
+            //초기화 버튼
             button14.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -86,7 +90,7 @@ public class Activity_02 extends Activity {
                     editTextNumber4.setText("");
                 }
             });
-
+            //돌아가기 버튼
             button15.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
