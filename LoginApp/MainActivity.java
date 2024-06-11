@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if ((editNumber.getText().length() !=0)&&(editPassword.getText().length() !=0)) {
                     if ((editNumber.getText().toString().equals(value5))&&(editPassword.getText().toString().equals(value6))){
-                        Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(g환
                     }else {
                         Toast.makeText(getApplicationContext(), "로그인 실패", Toast.LENGTH_SHORT).show();
                     }
