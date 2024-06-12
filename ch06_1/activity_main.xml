@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
-
+        //직접 입력 해줘야 하는 부분분
         <Chronometer
             android:id="@+id/chro"
             android:layout_width="wrap_content"
@@ -24,42 +24,7 @@
         <Button
             android:id="@+id/btnStart"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="예약 시작" />
-
-    </LinearLayout>
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <RadioButton
-            android:id="@+id/rdoCal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="날짜 설정" />
-
-        <RadioButton
-            android:id="@+id/rdoTime"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="시간 설정" />
-    </RadioGroup>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <CalendarView
-                android:id="@+id/cal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
+            android:layout_height="wrap_c분
             <TimePicker
                 android:id="@+id/time"
                 android:layout_width="wrap_content"
